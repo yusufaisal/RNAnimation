@@ -1,0 +1,6 @@
+module Pods_RNAnimation_RNAnimationTests {
+  umbrella header "Pods-RNAnimation-RNAnimationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
