@@ -16,15 +16,17 @@ import {
 
 import AnimatedTiming from "./example/AnimatedTiming";
 import AnimatedSpring from "./example/AnimatedSpring";
+import AnimatedParalel from './example/AnimatedParalel';
 
 const App: () => React$Node = () => {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={styles.container} >
-        <AnimatedSpring />
-        <AnimatedTiming />
-        
+        {/* <AnimatedSpring /> */}
+        {/* <AnimatedTiming /> */}
+        <AnimatedParalel />
+
       </SafeAreaView>
     </View>
   );
